@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+.calculator{
+    width:800px;
+    height:600px;
+    border-radius:20px;
+    background-color:rgb(211, 233, 238);
+    opacity:0.5;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-300px;
+    margin-left:-400px;
+}
+
+.input_bar{
+    padding-top:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.nums{
+    width:700px;
+    height:100px;
+    border-radius:10px;
+    font-size:50px;
+    text-indent: 50px;
+}
+.numbers{
+    margin-top:20px;
+    margin-left:50px;
+    padding-top:40px;
+    height:400px;
+    width:450px;
+    border:2px solid grey;
+    border-radius:10px;
+}
+img{
+    width:30px;
+    height:30px;
+}
+
+.numbers_1 , .numbers_2 , .numbers_3 ,.numbers_4{
+    margin-top:20px;
+    height:50px;
+    width:450px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.numbers_1>button{
+    width:60px;
+    height:60px;
+}
+
+
+.numbers_2>button{
+    width:60px;
+    height:60px;
+}
+
+.numbers_3>button{
+    width:60px;
+    height:60px;
+}
+
+.numbers_4>button{
+    width:60px;
+    height:60px;
+}
+
+.operations{
+    width:200px;
+    height:400px;
+    border:2px solid grey;
+    border-radius:10px;
+    position:absolute;
+    top:170px;
+    left:550px;
+    padding:20px;
+}
+
+.erase , .plus_minus{
+    width:200px;
+    height:50px;
+}
+.plus_minus, .multiplication_division{
+    
+    width:200px;
+    height:50px;
+    padding-top:20px;
+}
+.multiplication_division{
+    width:200px;
+    height:50px;
+    padding-top:40px;
+}
+
+.erase>button{
+    width:80px;
+    height:60px;
+}
+
+.plus_minus>button{
+    width:80px;
+    height:60px;
+}
+.multiplication_division>button{
+    width:80px;
+    height:60px;
+}
+
+
+.parenthesis{
+    width:200px;
+    height:50px;
+    padding-top:60px;
+}
+
+.parenthesis>button{
+    width:80px;
+    height:60px;
+}
+
+.equal{
+    width:200px;
+    height:50px;
+    padding-top:80px;
+}
+
+.equal>button{
+    width:165px;
+    height:60px;
+}
+
+
+
+
+
+
+
+
+

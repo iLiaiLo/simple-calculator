@@ -1,81 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="device-width , initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>calculator</title>
         <link rel="stylesheet" href="calculator.css">
-        <script src="calculator.js"></script>
+        <script src="calculator.js" type="module" defer></script>
     </head>
-    <body style="background-image:linear-gradient(to bottom, rgb(117, 117, 251), rgb(72, 72, 72));background-repeat:no-repeat;background-attachment:fixed">
+    <body>
         <div class="calculator">
-            <div class="input_bar">
-                <input type="text"  id="nums" class="nums">
+            
+            <div writingsuggestions="true" class="input_bar">
+                <input type="text" id="nums" class="nums">
             </div>
 
             <div class="numbers">
 
-            <div class="numbers_1">
-                <button  type="button" id="button_1" onclick="one()"><img src="1.png" ></button>
-                <button type="button" id="button_2" onclick="two()"><img src="2.png" ></button>
-                <button type="button" id="button_3" onclick="three()"><img src="3.png" ></button>
-            </div>
+                <button type="button" id="button_1">1</button>
+                <button type="button" id="button_2">2</button>
+                <button type="button" id="button_3">3</button>
+         
 
-            <div class="numbers_2">
-                <button type="button" id="button_4" onclick="four()"><img src="4.png" ></button>
-                <button type="buttton" id="button_5" onclick="five()"><img src="5.png" ></button>
-                <button type="button" id="button_6" onclick="six()"><img src="6.png" ></button>
-            </div>
-
-            <div class="numbers_3">
-                <button type="button" id="button_7" onclick="seven()"><img src="7.png" ></button>
-                <button type="buttton" id="button_8" onclick="eight()"><img src="8.png" ></button>
-                <button type="button" id="button_9" onclick="nine()"><img src="9.png" ></button>
-            </div>
-            <div class="numbers_4">
-                <button type="button" id="button_sign" onclick="sign()"><img src="sign.png" ></button>
-                <button type="buttton" id="button_0" onclick="zero()"><img src="0.png" ></button>
-                <button type="button" id="button_dot" onclick="dot()"><img src="dot.png" ></button>
+                <button type="button" id="button_4">4</button>
+                <button type="button" id="button_5">5</button>
+                <button type="button" id="button_6">6</button>
+    
+            
+                <button type="button" id="button_7">7</button>
+                <button type="button" id="button_8">8</button>
+                <button type="button" id="button_9">9</button>
+            
+                <button type="button" id="button_sign">+/-</button>
+                <button type="button" id="button_0">0</button>
+                <button type="button" id="button_dot">.</button>
                 
             </div>
 
             <div class="operations">
-
-                <div class="erase">
-                <button type="button" id="clear" onclick="cl()"><img src="clear_everything.png" ></button>
-                <button type="button" id="delete" onclick="del()"><img src="clear.png"></button>
-                </div>
-
-                <div class="plus_minus">
-                    <button type="button" id="addition" onclick="addition()"><img src="addition.png"></button>
-                    <button type="button" id="substraction" onclick="substraction()"><img src="substraction.png"></button>
-                </div>
-
-                <div class="multiplication_division">
-                    <button type="button" id="multiplication" onclick="mult()"><img src="multiplication.png"></button>
-                    <button type="button" id="division" onclick="division()"><img src="division.png"></button>
-                </div>
-
-                <div class="parenthesis">
-                    <button type="button" id="left_parenthesis" onclick="left_par()"><img src="left_p.png"></button>
-                    <button type="button" id="right_parenthesis" onclick="right_par()"><img src="right_p.png"></button>
-                </div>
-
-                <div class="equal">
-                    <button type="button" id="equal" onclick="result()"><img src="equal.png"></button>
-                </div>
-
+                
+                    <button type="button" id="clear" >C</button>
+                    <button type="button" id="delete">DEL</button>
+                    
+                    <button type="button" id="addition">+</button>
+                    <button type="button" id="substraction">-</button>
+                    <button type="button" id="multiplication">*</button>
+                    <button type="button" id="division">/</button>
+                    <button type="button" id="power">^</button>
+    
+                    <button type="button" id="left_parenthesis">&lpar;</button>
+                    <button type="button" id="right_parenthesis">&rpar;</button>
+                    <button type="button" id="modulo division">%</button>
+           
+                    <button type="button" id="equal">=</button>
+              
             </div>
             
-  
-
-
-            
-
-               
-        
-
-            </div>
         </div>
-
+        
     </body>
 </html>
